@@ -1,0 +1,27 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+pandas = "*"
+numpy = "*"
+matplotlib = "*"
+scipy = "*"
+scikit-learn = "*"
+seaborn = "*"
+tqdm = "*"
+jinja2 = "*"
+skillsnetwork = "*"
+sympy = "*"
+folium = "*"
+polars = "*"
+pyarrow = "*"
+kmodes = "*"
+gower = "*"
+
+[dev-packages]
+ipykernel = "*"
+
+[requires]
+python_version = "3.12"
